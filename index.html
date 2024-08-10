@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAR-Q Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="form-container">
+        <h1>PAR-Q Form</h1>
+
+        <div class="form-section">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form-section">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        </div>
+
+        <div class="form-section">
+            <label for="telephone">Telephone:</label>
+            <input type="text" id="telephone" name="telephone">
+        </div>
+
+        <div class="form-section">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+        </div>
+
+        <div class="form-section">
+            <label for="height">Height:</label>
+            <input type="text" id="height" name="height">
+            <label for="weight">Weight:</label>
+            <input type="text" id="weight" name="weight">
+        </div>
+
+        <div class="form-section">
+            <label for="emergency-contact">In Case of Emergency Contact:</label>
+            <input type="text" id="emergency-contact" name="emergency-contact">
+            <label for="relationship">Relationship:</label>
+            <input type="text" id="relationship" name="relationship">
+        </div>
+
+        <div class="form-section">
+            <label for="emergency-address">Address:</label>
+            <input type="text" id="emergency-address" name="emergency-address">
+            <label for="emergency-phone">Phone:</label>
+            <input type="text" id="emergency-phone" name="emergency-phone">
+        </div>
+
+        <div class="form-section">
+            <label for="physician">Physician:</label>
+            <input type="text" id="physician" name="physician">
+            <label for="specialty">Specialty:</label>
+            <input type="text" id="specialty" name="specialty">
+            <label for="physician-address">Address:</label>
+            <input type="text" id="physician-address" name="physician-address">
+            <label for="physician-phone">Phone:</label>
+            <input type="text" id="physician-phone" name="physician-phone">
+        </div>
+
+        <div class="form-section">
+            <p>Are you currently under a doctor's care:</p>
+            <input type="checkbox" id="care-yes" name="care" value="yes">
+            <label for="care-yes">Yes</label>
+            <input type="checkbox" id="care-no" name="care" value="no">
+            <label for="care-no">No</label>
+            <label for="care-explain">If yes, explain:</label>
+            <textarea id="care-explain" name="care-explain"></textarea>
+        </div>
+
+        <div class="form-section">
+            <p>When was the last time you had a physical examination?</p>
+            <input type="checkbox" id="exam-yes" name="exam" value="yes">
+            <label for="exam-yes">Yes</label>
+            <input type="checkbox" id="exam-no" name="exam" value="no">
+            <label for="exam-no">No</label>
+        </div>
+
+        <div class="form-section">
+            <p>Have you ever had an exercise stress test:</p>
+            <input type="checkbox" id="stress-test-yes" name="stress-test" value="yes">
+            <label for="stress-test-yes">Yes</label>
+            <input type="checkbox" id="stress-test-no" name="stress-test" value="no">
+            <label for="stress-test-no">No</label>
+            <input type="checkbox" id="stress-test-dont-know" name="stress-test" value="dont_know">
+            <label for="stress-test-dont-know">Don't Know</label>
+        </div>
+
+        <div class="form-section">
+            <p>If yes, were the results:</p>
+            <input type="checkbox" id="stress-test-normal" name="stress-test-results" value="normal">
+            <label for="stress-test-normal">Normal</label>
+            <input type="checkbox" id="stress-test-abnormal" name="stress-test-results" value="abnormal">
+            <label for="stress-test-abnormal">Abnormal</label>
+        </div>
+
+        <div class="form-section">
+            <p>Do you take any medications on a regular basis?</p>
+            <input type="checkbox" id="medications-yes" name="medications" value="yes">
+            <label for="medications-yes">Yes</label>
+            <input type="checkbox" id="medications-no" name="medications" value="no">
+            <label for="medications-no">No</label>
+            <label for="medications-list">If yes, please list medications and reasons for taking:</label>
+            <textarea id="medications-list" name="medications-list"></textarea>
+        </div>
+
+        <div class="form-section">
+            <p>Have you been recently hospitalized?</p>
+            <input type="checkbox" id="hospitalized-yes" name="hospitalized" value="yes">
+            <label for="hospitalized-yes">Yes</label>
+            <input type="checkbox" id="hospitalized-no" name="hospitalized" value="no">
+            <label for="hospitalized-no">No</label>
+            <label for="hospitalized-explain">If yes, explain:</label>
+            <textarea id="hospitalized-explain" name="hospitalized-explain"></textarea>
+        </div>
+
+        <div class="form-section">
+            <p>Do you smoke? Are you pregnant?</p>
+            <input type="checkbox" id="smoke-yes" name="smoke" value="yes">
+            <label for="smoke-yes">Yes</label>
+            <input type="checkbox" id="smoke-no" name="smoke" value="no">
+            <label for="smoke-no">No</label>
+        </div>
+
+        <div class="form-section">
+            <p>Do you drink alcohol more than three times/week? Is your stress level high?</p>
+            <input type="checkbox" id="alcohol-yes" name="alcohol" value="yes">
+            <label for="alcohol-yes">Yes</label>
+            <input type="checkbox" id="alcohol-no" name="alcohol" value="no">
+            <label for="alcohol-no">No</label>
+        </div>
+
+        <div class="form-section">
+            <p>Are you moderately active on most days of the week? Do you have:</p>
+            <p>High blood pressure? High cholesterol? Diabetes?</p>
+            <input type="checkbox" id="blood-pressure-yes" name="blood-pressure" value="yes">
+            <label for="blood-pressure-yes">Yes</label>
+            <input type="checkbox" id="blood-pressure-no" name="blood-pressure" value="no">
+            <label for="blood-pressure-no">No</label>
+        </div>
+
+        <div class="form-section">
+            <p>Have parents or siblings who, prior to age 55 had: A heart attack? A stroke? High blood pressure?</p>
+            <input type="checkbox" id="family-history-yes" name="family-history" value="yes">
+            <label for="family-history-yes">Yes</label>
+            <input type="checkbox" id="family-history-no" name="family-history" value="no">
+            <label for="family-history-no">No</label>
+        </div>
+
+        <button onclick="downloadPDF()">Download PDF</button>
+        <button onclick="downloadPNG()">Download PNG</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
